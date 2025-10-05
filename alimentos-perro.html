@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alimentos para Perros - Patitas Vet</title>
+  <link rel="stylesheet" href="alimentos-perro.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 🔹 Encabezado igual que en index.html -->
+  <header>
+    <div class="logo">
+      <img src="img/logopatitas.png" alt="Patitas Vet Logo">
+      <h1>Patitas Vet</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#">Perro ▾</a>
+          <ul class="submenu">
+            <li><a href="alimentos-perro.html">Alimentos</a></li>
+            <li><a href="#">Alimento seco</a></li>
+            <li><a href="#">Alimento húmedo</a></li>
+            <li><a href="#">Alimento medicado</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">Alimentos BARF</a></li>
+          </ul>
+        </li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🔹 Contenido principal -->
+  <main class="main-container">
+    <!-- Filtros a la izquierda -->
+    <aside class="filters">
+      <h2>Filtros</h2>
+      <form>
+        <label>Marca</label>
+        <select><option>Royal Canin</option><option>Pedigree</option><option>Pro Plan</option></select>
+
+        <label>Submarca</label>
+        <select><option>Variante 1</option><option>Variante 2</option></select>
+
+        <label>Mascota</label>
+        <select><option>Perro</option></select>
+
+        <label>Categoría</label>
+        <select><option>Seco</option><option>Húmedo</option></select>
+
+        <label>Tipo de producto</label>
+        <select><option>Normal</option><option>Medicado</option></select>
+
+        <label>Formato</label>
+        <select><option>1kg</option><option>5kg</option><option>15kg</option></select>
+
+        <label>Edad</label>
+        <select><option>Cachorro</option><option>Adulto</option><option>Senior</option></select>
+
+        <label>Cuidados específicos</label>
+        <select><option>Digestión</option><option>Piel</option><option>Articulaciones</option></select>
+
+        <label>Sabor</label>
+        <select><option>Pollo</option><option>Carne</option><option>Pescado</option></select>
+
+        <label>Nutrición</label>
+        <select><option>Alta energía</option><option>Ligth</option></select>
+
+        <label>Raza</label>
+        <select><option>Pequeña</option><option>Mediana</option><option>Grande</option></select>
+      </form>
+    </aside>
+
+    <!-- Productos a la derecha -->
+    <section class="products">
+      <h2>Todos los Alimentos para Perros</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="img/alimento1.jpg" alt="Alimento Seco">
+          <h3>Alimento Seco Premium</h3>
+          <p>Bolsa de 15kg - Pollo</p>
+          <span>S/ 150.00</span>
+        </div>
+        <div class="product-card">
+          <img src="img/alimento2.jpg" alt="Alimento Húmedo">
+          <h3>Alimento Húmedo</h3>
+          <p>Lata 400g - Carne</p>
+          <span>S/ 12.00</span>
+        </div>
+        <div class="product-card">
+          <img src="img/alimento3.jpg" alt="Snacks">
+          <h3>Snacks Saludables</h3>
+          <p>Bolsa 200g</p>
+          <span>S/ 25.00</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🔹 Botón volver -->
+  <div class="back-btn">
+    <a href="index.html">⬅ Volver al inicio</a>
+  </div>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    <p>&copy; 2025 Patitas Vet - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
